@@ -95,6 +95,7 @@ nav ul li a:hover::after {
     100% {
         left: 100%;
         margin: 0 -35px 0 35px;
+        background: transparent;
     }
 }
 
@@ -413,6 +414,7 @@ nav .fa-solid {
         font-size: 30px;
     }
 
+
     nav .fa-solid {
         display: block;
         font-size: 25px;
@@ -444,13 +446,13 @@ nav .fa-solid {
 
     .header-text h1 span::after {
         content: "";
-        position: relative;
+        position: absolute;
         left: 0;
         height: 100%;
         width: 100%;
         background: #000;
-        border-left: none;
-        animation: none;
+        border-left: 2px solid #A508F7;
+        animation: typing 2s steps(15) infinite;
     }
     .sub-title{
         font-size: 40px;
